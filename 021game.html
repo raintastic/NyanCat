@@ -1,0 +1,89 @@
+﻿<html>
+<head>
+    <title>Nyan Cat | Casino</title>
+    <link rel="shortcut icon" href="images/nyan_cat_250x250.png" type="image/x-icon">
+    <link rel="icon" href="images/nyan_cat_250x250.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/format.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" defer></script>
+    <script type="text/javascript" src="js/021game.js" defer></script>
+
+    <script type="text/javascript">
+        alert("Navigating away from this site will result in a loss of all your chips(ᓚᘏᗢ)");
+        
+        /*    var r = confirm('Successful Message!'); if (r == true) { window.location.reload(); }
+        
+        if (!alert('Navigating away from the page will resilt in a loss of all your ᓚᘏᗢ!')) {
+            window.location.reload();
+        } else {
+
+        }
+        */
+        if (confirm("Don't forget ( •_•)>⌐■-■")) {
+
+        } else {
+            window.location.reload();
+        }
+
+    </script>
+</head>
+<body>
+    <header>
+
+        <p class="pages">
+            <a href="index.html">Home</a>  ●
+            <a href="trip.html">About</a>
+        </p>
+        <p class="title">PRESS START TO PLAY CATJACK!!</p>
+    </header>
+
+    <div class="console">
+        <button id="start">START</button>
+        <button id="reset">RESET</button>
+    </div>
+    <div class="centered">
+
+        <div id="result" class="results" style="visibility: hidden;">
+
+            <div class="dealer">
+                <h1>Dealer's Hand:</h1>
+                <!--inline style to keep Player's Hand in the middle of the table-->
+                <div class="dealers_cards" style="height:90px">
+                    <ul>
+                    </ul>
+                </div>
+                <div class="score"></div>
+            </div>
+
+            <div class="player">
+                <h1>Your Hand:</h1>
+                <div class="players_cards">
+                    <ul>
+                    </ul>
+                </div>
+                <!--<div class="score"></div>-->
+
+            </div>
+
+        </div>
+    </div>
+    <div id="pscore" class="pscore" style="visibility: hidden;"></div>
+    <div class="gameConsole" style="visibility: hidden;">
+
+        <button id="hit">HIT</button>
+        <button id="stand">STAND</button>
+
+        <button id="double" class="double">X2</button>
+    </div>
+    <div class="gamble" style="visibility: hidden;">
+
+        <button id="minus" class="bet">-</button>
+        <!--display amount being wagered here-->
+        <button id="bet-el"></button>
+        <button id="plus" class="bet">+</button>
+        <p id="player-el"></p>
+    </div>
+
+</body>
+</html>
