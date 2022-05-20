@@ -1,0 +1,62 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("bkg/yellowback_380x380.jpg");
+    background-size: cover;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    color: navy;
+    font-weight: bold;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: black;
+    width: 150px;
+    background: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: 50px;
+    border-color: black;
+    border-block-color: black;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+button.bet {
+    width: 75px;
+    border-radius: 16px;
+
+}
+
+.clicked {
+    border-color: #e7e7e7;
+    color: black;
+}
+
+.double {
+    width: 50px;
+    border-radius: 8px;
+}
+
+button.hover{
+    color: aliceblue;
+}
+
+button.plus {
+    color: #016f32;
+    background: lightgreen;
+}
+
+button.minus{
+    color:darkred;
+    background: pink;
+}

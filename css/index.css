@@ -1,0 +1,47 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("bkg/nyan_funny.jpg");
+    background-size: cover;
+    background-color: mintcream;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    color: lavender;
+}
+hr {
+    width: 85%;
+    background-color: deepskyblue;
+}
+
+header {
+    color: darkslateblue;
+    /*background-image: linear-gradient(blue, white);*/
+    background-color: slateblue;
+    background-image: linear-gradient( rgba(107,178,227,0.5), rgba(0,0,0,0.1));
+    border-bottom: 2.5px solid darkslateblue;
+    /*padding: 10px;*/
+}
+
+.pages {
+    padding: 2px;
+}
+
+.title {
+    padding: 5px;
+    color: lavender;
+    border-block-color: aqua;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.text-center {
+    position: relative;
+    text-align: center;
+}
+p {
+    color: lavender;
+}

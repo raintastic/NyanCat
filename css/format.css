@@ -1,0 +1,336 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    /*height: 400px;*/
+    width: 100%;
+    background-image: url("bkg/yellowback_380x380.jpg");
+    background-color: blue;
+    background-color: #f9f3b5;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+header {
+    color: #fda9bc;
+    /*background-image: linear-gradient(blue, white);*/
+    background-color: #f9f3b5;
+    background-image: linear-gradient( rgba(254,180,153,0.5), rgba(255,0,0,0.1));
+    border-bottom: 2.5px solid #feb499;
+    /*padding: 10px;*/
+}
+.pages {
+    padding: 10px;
+}
+hr {
+    width: 80%;
+    height: 2.5px;
+    border: none;
+    background-color: grey;
+    border-radius: 2px;
+}
+div {
+    /*height: 400px;*/
+    width: 100%;
+    /*background-position: right, left;*/
+}
+.main {
+    /*background-image: url("bkg/yellowback_380x380.jpg"); */
+}
+a:link {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: grey;
+    background-color: #feb499;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fda9bc;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.title {
+    font-size: 40px;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    /*font: normal 41px/normal 'Merriweather', serif;*/
+    font-family: "Bubblegum Sans";
+    font-size: 41px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px rgba(255,182,162,1), 0 0 20px rgba(255,182,162,1), 0 0 30px rgba(255,255,255,1), 0 0 40px #ffb6a2, 0 0 70px #ffb6a2, 0 0 80px #ff002e, 0 0 100px #ffb6a2;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+    .title:hover {
+        text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 20px rgba(255,255,255,1), 0 0 30px rgba(255,255,255,1), 0 0 40px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff, 0 0 100px #00ffff;
+    }
+
+button {
+    color: black;
+    width: 150px;
+    background: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: 50px;
+    border-color: black;
+    border-block-color: black;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.console {
+    position: relative;
+    width: 350px;
+    color: red;
+    /*border: 1px solid red*/
+    margin: 10px auto;
+}
+
+    .console button {
+        position: relative;
+        color: grey;
+        text-decoration: none;
+        background-color: rgba(240,248,255,1);
+        font-weight: 700;
+        font-size: 2em;
+        display: block;
+        padding: 4px;
+        border-radius: 8px;
+        -moz-box-shadow: 0px 9px 0px rgba(160,237,218,1), 0px 9px 25px rgba(0,0,0,.7);
+        box-shadow: 0px 9px 0px rgba(160,237,218,1), 0px 9px 25px rgba(0,0,0,.7);
+        margin: 20px auto;
+        width: 150px;
+        height: 45px;
+        text-align: center;
+        -moz-transition: all .1s ease;
+        transition: all .1s ease;
+    }
+
+        .console button:active {
+            -moz-box-shadow: 0px 3px 0px rgba(160,237,218,1), 0px 3px 6px rgba(0,0,0,.9);
+            box-shadow: 0px 3px 0px rgba(160,237,218,1), 0px 3px 6px rgba(0,0,0,.9);
+        }
+
+
+#start {
+    float: left;
+}
+
+#reset {
+    float: right;
+}
+
+
+.centered {
+    font: normal 21px/normal 'Merriweather', serif;
+    overflow: hidden;
+    position: relative;
+    color: grey;
+    /*border: 1px solid blue;*/
+    height: 570px;
+    padding-top: 10px;
+    color: #feab92;
+}
+
+
+.dealer {
+    /*font-size: 25px;*/
+    /*border: 1px solid black;*/
+    text-align: center;
+}
+
+.dealers_cards, .players_cards {
+    width: 450px;
+    overflow: hidden;
+    margin: auto;
+    display: inline-block;
+    padding: 10px 40px 10px 10px;
+    color: grey;
+    height: 110px;
+    /*border: 1px solid yellow;*/
+}
+
+.results {
+    height: 550px;
+    width: 500px;
+    border-radius: 70px;
+    margin: -10px auto;
+    /*background-color: rgba(255,173,189,.4);*/
+    background-color: rgba(0,0,0,.5);
+}
+.info {
+    width: 85%;
+    border-radius: 50px;
+    padding: 0px 15px 5px 15px;
+    margin: 25px auto;
+    color: midnightblue;
+    /*background-color: rgba(255,173,189,.4);*/
+    background-color: rgba(107,178,227,.5);
+}
+.info2 {
+    width: 85%;
+    border-radius: 50px;
+    padding: 0px 15px 5px 15px;
+    margin: 10px auto;
+    color: darkslategrey;
+    background-color: rgba(255,173,189,.4);
+    /*background-color: rgba(0,0,0,.5);*/
+}
+
+.about-name {
+    height: 50px;
+    width: 350px;
+    margin:auto;
+    border-radius: 20px;
+    border: solid 2px grey;
+    background-color: rgba(0,0,0,.5);
+    position: relative;
+}
+.results ul {
+    /*border: 1px solid red;*/
+    position: relative;
+    display: inline-block;
+    margin: auto;
+}
+
+.results li {
+    position: relative;
+    display: block;
+    width: 30px;
+    float: left;
+}
+
+.results img {
+    /*width: 10%;*/
+    height: 90px;
+    display: block;
+}
+
+.player {
+    margin-top: 15px;
+    /*font-size: 25px;*/
+    /*border: 1px solid white;*/
+    text-align: center;
+}
+
+.players_cards {
+    /*padding: 10px;*/
+    color: purple;
+    /*border: 1px solid purple;*/
+}
+
+.pscore {
+    position: relative;
+    background-color: lightgray;
+    color: #feab92;
+    height: 30px;
+    width: 100px;
+    margin: auto;
+    bottom: 140px;
+    border-radius: 4px;
+    -moz-box-shadow: 0px 9px 25px rgba(0,0,0,.5);
+    box-shadow: 0px 9px 25px rgba(0,0,0,.5);
+}
+
+    .pscore p {
+        padding-top: 5px;
+        text-align: center;
+        font-weight: 700;
+        font-family:;
+        font-size: 1.2em;
+    }
+
+
+.gameConsole {
+    position: relative;
+    width: 300px;
+    height: 0px;
+    color: red;
+    /*border: 1px solid red*/
+    margin: auto;
+    bottom: 130px;
+}
+
+    .gameConsole button {
+        position: relative;
+        color: grey;
+        text-decoration: none;
+        background-color: rgba(240,248,255,1);
+        font-weight: 700;
+        /*font-family: 'Yanone Kaffeesatz';*/
+        font-size: 1.2em;
+        /*display: block;*/
+        padding: 10px 0px 10px;
+        border-radius: 20px;
+        -moz-box-shadow: 0px 9px 0px rgba(160,237,218,1), 0px 9px 25px rgba(0,0,0,.7);
+        box-shadow: 0px 9px 0px rgba(160,237,218,1), 0px 9px 25px rgba(0,0,0,.7);
+        margin: 10px 10px auto;
+        width: 75px;
+        height: 50px;
+        text-align: center;
+        -moz-transition: all .1s ease;
+        transition: all .1s ease;
+    }
+
+        .gameConsole button:active {
+            -moz-box-shadow: 0px 3px 0px rgba(160,237,218,1), 0px 3px 6px rgba(0,0,0,.9);
+            box-shadow: 0px 3px 0px rgba(160,237,218,1), 0px 3px 6px rgba(0,0,0,.9);
+        }
+
+button.double:active {
+    background-color: gainsboro;
+    box-shadow: 0px 3px 0px rgba(192,192,192, 1), 0px 3px 6px rgba(0,0,0,.9);
+}
+
+.gamble{
+    font-weight: normal;
+}
+    .gamble button{
+        font-weight: bolder;
+    }
+        .gamble button.bet {
+            width: 75px;
+            border-radius: 16px;
+        }
+            .gamble button.bet:active {
+                -moz-box-shadow: 0px 3px 0px rgba(160,237,218,1), 0px 3px 6px rgba(0,0,0,.9);
+                box-shadow: 0 0 10px rgba(255,255,255,1), 0 0 20px rgba(255,255,255,1), 0 0 30px rgba(255,255,255,1), 0 0 40px #00ffff, 0 0 70px #00ffff, 0 0 80px #00ffff, 0 0 100px #00ffff;
+            }
+
+#plus{
+    color: #016f32;
+    background: lightgreen;
+}
+
+#minus{
+    color: darkred;
+    background: pink;
+}
